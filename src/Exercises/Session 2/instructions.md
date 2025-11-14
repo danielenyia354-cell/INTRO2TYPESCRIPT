@@ -10,12 +10,19 @@ You should write your code in each file and push your solution to your own branc
 ## Folder Suggestion
 Session 2/
 │
+
 ├── 1_typeAlias_function.ts
+
 ├── 2_tuple_coordinates.ts
+
 ├── 3_enum_taskStatus.ts
+
 ├── 4_interface_employee.ts
+
 ├── 5_class_car.ts
+
 ├── 6_mini_project_studentReport.ts
+
 └── bonus_transactionSystem.ts
 
 ## Submission Guideline
