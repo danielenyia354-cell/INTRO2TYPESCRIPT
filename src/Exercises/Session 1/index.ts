@@ -34,6 +34,16 @@ console.log(studentNames);
 console.log(scores);
 
 // 6 INTERSECTION TYPE
+type User={
+    name: string,
+    email: string,
+};
+type Account={
+    accountNumber: string,
+    balance: number,
+};
+type customer= User & Account;
+
 let user = {
   name: "Emmanuel",
   email: "emma@example.com",
@@ -54,7 +64,7 @@ let customer= {
 }
 console.log(customer)
 
-function calculateTax(income:any, taxYear:any):number{
+function calculateTax(income:number, taxYear:number):number{
     if (taxYear < 2025) {
         return (income / 100) * 1.2;
     } else{
