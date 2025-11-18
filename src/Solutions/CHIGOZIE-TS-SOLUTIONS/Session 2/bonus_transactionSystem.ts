@@ -42,7 +42,7 @@ const transaction2 = new Transaction(
   "TX101",
   95000,
   TransactionType.Withdrawal,
-  "Okorie Chigozie"
+  "Okorie john"
 );
 
 transaction1.printSummary();
