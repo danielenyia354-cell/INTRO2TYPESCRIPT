@@ -1,27 +1,25 @@
-// 
-// 1. Create an enum called TaskStatus.
-enum TaskStatus {
-    Pending = "PENDING",
-    InProgress = "IN_PROGRESS",
-    Completed = "COMPLETED"
-}
-
-
-function checkStatus(status: TaskStatus): void {
+enum TaskStatus{
+    PENDING = 'PENDING',
+    INPROGRESS= 'IN PROGRESS',
+    COMPLETED = 'COMPLETED',
   
-    if (status === TaskStatus.Pending) {
-        console.log("Action: This task hasn't started yet. Time to get moving!");
-    } else if (status === TaskStatus.InProgress) {
-        console.log("Action:  Keep working! This task is currently active.");
-    } else if (status === TaskStatus.Completed) {
-        console.log("Action:  Task finished! Great job.");
-    } else {
-       
-       
-    }
 }
 
-// Example Usage:
-checkStatus(TaskStatus.InProgress);
-checkStatus(TaskStatus.Pending);
-checkStatus(TaskStatus.Completed);
+
+let mySize:TaskStatus = TaskStatus.INPROGRESS;
+
+
+
+function checkStatus (mySize:string,){
+
+if( mySize == TaskStatus.PENDING){
+    console.log("task is in progress")
+}else if (
+    mySize = TaskStatus.INPROGRESS
+){
+    console.log("task is still processing")
+}else if (mySize = TaskStatus.COMPLETED){
+    console.log("task is done")
+}
+}
+   console.log(checkStatus(mySize))

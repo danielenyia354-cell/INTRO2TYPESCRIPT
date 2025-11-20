@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "node",
             "request": "launch",
@@ -19,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/src/Exercises/Session 2/enum_taskStatus.ts",
+            "program": "${workspaceFolder}/src/Exercises/Session 2/_typeAlias_function.ts",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

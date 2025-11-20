@@ -15,4 +15,3 @@ const idString: EmployeeID = "E1234";
 console.log(idString); 
 
 
-
