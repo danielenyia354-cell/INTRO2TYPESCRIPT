@@ -7,7 +7,7 @@
 //        if (EmployeeId==="Mekjah"){
 //         return"Employee Id: E1234";
 //         } else {
-//     return "sorry, you are not an employee";}   
+//     return "sorry, you are not an employee";}
 // }
 // console.log(EmployeeName("Mekjah"));
 
